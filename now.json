@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "name": "makrocalculator",
+  "alias": "makro",
+  "routes": [
+    { "src": "^/static/(.*)", "dest": "/build/static/$1" },
+    { "src": "^/favicon.ico", "dest": "/build/favicon.ico" },
+    { "src": "^/manifest.json", "dest": "/build/manifest.json" },
+    { "src": "^/(.*)", "dest": "/build/index.html" }
+  ]
+}
